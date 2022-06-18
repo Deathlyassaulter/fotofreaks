@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form </h1>
+<h2>Contact Information</h2>
+<p>Name: <input type="text" name="name"></p>
+<fieldset>
+    <legend>Gender</legend>
+    <p>
+    Male <input type="radio" name="gender" id="">
+    Female <input type="radio" name="gender" id="">
+<!-- jab selection hoga jisme do mai se ek choose karna hai usme radio tag ka use hoga aur jo name hai dono ka same hona chahiye 
+    warna isko lagega ki alag alag hai jaise isme gender hai tabhi ye ek maanega warna agar naam alag hota toh
+    alag alag maan leta -->
+
+</p>
+</fieldset>
+<p>Address: <textarea name="address" id="address" cols="100" rows="8"></textarea> </p>
+<p>Email: <input type="email" name="email" id="email"></p>
+<p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+<hr>
+<h2>Payment Information</h2>
+<p>Card type:
+    <select name="card_type" id="card_type">
+<option value="">--Select a card type</option>></option>
+<option value="visa">Visa</option>
+<option value="mastercard">mastercard</option>
+<option value="rupay">Rupay</option>
+</select>
+</p> 
+<p>
+    Card number <input type="number" name="card_number" id="card_number">
+     </p>
+<p>Expiration date: <input type="date" name="exp_date" id="exp_date"></p>
+<p>CVV <input type="password" name="CVV" id="CVV"></p>
+   <input type="submit" value="Pay Now">
+
+</form>
+</body>
+</html>
+ 
